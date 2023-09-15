@@ -127,8 +127,60 @@ letter-spacing: 0.02em;
     fill: #f4f4fd;}
 
 
-@media screen and (min-width:768) {
-    
+@media screen and (min-width:768px) {
+    .open-mobile-menu-btn {
+        display: none;
+    }
+    .logotype {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-menu-list {
+        display: flex;
+       position: relative;
+       margin-left: 120px;
+        gap: 40px;
+        margin-right: 122px;
+
+    }
+    .header-menu-list-adress {
+        display: block;
+       
+        font-style: normal; 
+    padding-top: 16px;}
+    .-menu {
+        
+    }
+.nav-menu-studio {
+   
+    color: #404BBF;
+}
+
+.adress-menu {
+    color: #434455;}
+    .adress-first {
+        margin-bottom: 12px;
+    }
+
+}
+
+
+@media screen and (min-width:1158px)
+{
+    .logotype {
+        margin-left: 156px;
+        margin-right: 76px;
+    }
+    .header-menu-list {
+        
+    }
+    .header-menu-list-adress {
+        display: flex;
+    }
+    .adress-first {
+        margin-right: 40px;
+    }
 }
 
 /* .header-menu {
