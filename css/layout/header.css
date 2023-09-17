@@ -4,6 +4,7 @@
 .header-menu-list-adress {
     display: none;
 }
+
 .logo-title {
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
@@ -137,7 +138,7 @@ letter-spacing: 0.02em;
     .logotype {
         display: flex;
         align-items: center;
-    }
+    } 
 
     .header-menu-list {
         display: flex;

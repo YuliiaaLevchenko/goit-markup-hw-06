@@ -4,3 +4,6 @@
 @import './utils/visually-hidden.css';
 @import './layout/header.css';
 @import './layout/hero.css';
+@import './layout/footer.css';
+@import './layout/our-section.css';
+@import './layout/team-section.css';
