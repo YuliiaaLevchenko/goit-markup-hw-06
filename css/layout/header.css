@@ -135,9 +135,14 @@ letter-spacing: 0.02em;
     .open-mobile-menu-btn {
         display: none;
     }
+    .conteiner-menu {
+      display: flex;
+    align-items: center;
+  justify-content: space-between;}
     .logotype {
         display: flex;
         align-items: center;
+        margin-left: 16px;
     } 
 
     .header-menu-list {

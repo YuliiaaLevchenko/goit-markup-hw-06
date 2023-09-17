@@ -1,5 +1,15 @@
 .footer-section {
-  background-color: #2e2f42;
+  background-color: #2e2f42;}
+  .footer-info {
+  
+  align-items: center;
+  }
+  .social-list {
+    
+  align-items: center;
+  }
+  .footer-form {
+
   }
 .footer-logo {
   color: #4d5ae5;}
@@ -27,6 +37,10 @@
     width: 40px;
     height: 40px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .socialicon {
+      display: flex;
+      gap: 16px;
     }
     .socialitemlink {
         display: flex;
@@ -96,6 +110,10 @@
         background-color: #404bbf;
       }
       
+      @media screen and (min-width:768px) {}
+
+
+      @media screen and (min-width:1158px) {}
 
 /* .footer-section { 
     background-color: #2e2f42;

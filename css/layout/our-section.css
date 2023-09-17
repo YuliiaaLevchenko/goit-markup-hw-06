@@ -20,6 +20,22 @@ text-transform: capitalize;
     text-align: center;
     justify-content: center;
 }
+
+@media screen and (min-width:768px) {
+  .our-list li {
+    width: calc((100% - 24px) / 2); 
+}
+.section-text {
+  text-align: left;
+}
+.our-item {
+  width: 356px;
+  padding-bottom: 72px;
+}
+}
+
+@media screen and (min-width:1158px) {}
+
  /* .our-section { 
     padding: 120px 0;
   }
