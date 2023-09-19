@@ -1,10 +1,15 @@
+.our-section-container {
+  padding-left: 16px;
+  padding-right: 16px;
+}
 .our-item-icon {
   display: none;
 }
-.our-list li {
-  flex-basis: calc((100% - 24px) / 4);}
-  .our-item {
-  gap: 72px;
+.our-item {
+  width: calc((100% - 24px) / 4);
+  }
+  .our-list {
+    gap: 72px;
 }
 .section-title {
   justify-content: center;
@@ -17,8 +22,7 @@
   text-transform: capitalize;
 }
 .section-text {
-  text-align: left;
-  justify-content: center;
+  
 }
 
 @media screen and (min-width: 768px) {
