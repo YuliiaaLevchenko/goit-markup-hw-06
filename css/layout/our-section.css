@@ -6,10 +6,11 @@
   display: none;
 }
 .our-item {
-  width: calc((100% - 24px) / 4);
+  
   }
   .our-list {
     gap: 72px;
+    
 }
 .section-title {
   justify-content: center;
@@ -22,8 +23,12 @@
   text-transform: capitalize;
 }
 .section-text {
-  
+  align-self: stretch;
 }
+.overlay {display: none;}
+
+
+
 
 @media screen and (min-width: 768px) {
   .our-section {
