@@ -11,10 +11,25 @@ margin-bottom: 72px;}
 .portfolio-wrapper {
   position: relative;
   overflow: hidden;
-  background-image: url();
+  
 }
 
-@media screen and (min-width:768px) {}
+@media screen and (min-width:768px) {
+  .portfolio-title { 
+    margin-top: 96px;
+    
+  }
+  .portfolio-menu {
+    flex-flow: wrap row;
+    align-content: center;
+    gap: 72px 24px;
+  }
+  .portfolio-list {
+    width: calc((100% - 24px) / 2);}
+  
+  
+  
+  }
 
 @media screen and (min-width:1158px) {}
 

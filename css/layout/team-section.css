@@ -88,7 +88,11 @@ letter-spacing: 0.02em;
     fill: #f4f4fd;
   }
 
-  @media screen and (min-width:768px) {}
+  @media screen and (min-width:768px) {
+    
+    .team-item
+    {width: calc((100% - 24px) / 2);}
+  }
 
   @media screen and (min-width:1158px) {}
 
