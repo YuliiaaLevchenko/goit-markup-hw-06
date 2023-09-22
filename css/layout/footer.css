@@ -5,10 +5,8 @@
 }
 .footer-container {
   text-align: center;
-  
 }
 .footer-info {
-  
   text-align: center;
   align-items: center;
 }
@@ -24,6 +22,11 @@
 }
 .footer-list {
   text-transform: uppercase;
+  font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.16; 
+letter-spacing: 0.03em;
 }
 .social-text {
   color: #fff;
@@ -41,7 +44,6 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 288px;
-  text-align: justify;
   margin-bottom: 72px;
   margin-top: 18px;
 }
@@ -148,9 +150,11 @@
   }
   .footer-info {
     align-items: baseline;
+    text-align: left;
   }
   .footer-list {
     margin-bottom: 16px;
+    
   }
   .footer-text {
     color: #f4f4fd;
@@ -211,6 +215,7 @@
   }
   .footer-form-text {
     margin-bottom: unset;
+    margin-top: unset;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;

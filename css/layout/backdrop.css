@@ -478,8 +478,8 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%) scale(1);
-        width: 288px;
-        min-height: 623px;
+        width: 408px;
+        min-height: 584px;
         padding: 72px 24px 24px 24px; 
         border-radius: 4px;
       background: var(--DAIRY, #FCFCFC);

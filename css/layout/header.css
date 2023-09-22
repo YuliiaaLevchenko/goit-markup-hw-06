@@ -1,3 +1,7 @@
+.header-container {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
 .header-menu-list {
   display: none;
 }
@@ -13,11 +17,6 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-.logotype {
-  padding-left: 16px;
-  padding-top: 18px;
-  padding-bottom: 18px;
 }
 .open-mobile-menu-btn {
   margin-top: 16px;

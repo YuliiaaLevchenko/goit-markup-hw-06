@@ -1,18 +1,16 @@
-.our-section-container {
-  padding-left: 16px;
-  padding-right: 16px;
+.our-section {
   padding-top: 96px;
   padding-bottom: 96px;
+}
+.our-section-container {
+  padding-left: 16px;
+  padding-right: 16px; 
 }
 .our-item-icon {
   display: none;
 }
-.our-item {
-  
-  }
   .our-list {
-    gap: 72px;
-    
+    gap: 72px;   
 }
 .section-title {
   width: 100%;
@@ -31,11 +29,7 @@
 .overlay {display: none;}
 
 @media screen and (min-width: 768px) {
-  .our-section {
-    padding-top: 96px;
-    padding-bottom: 96px;
-  }
-  .our-list {
+   .our-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -75,7 +69,6 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    
     margin-bottom: 8px;
   }
   .icon-list {
