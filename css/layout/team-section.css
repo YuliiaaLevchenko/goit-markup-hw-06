@@ -1,6 +1,8 @@
 .team-section { 
     background-color: #f4f4fd;}
-    
+    .team-container {
+      max-width: 296px;
+            }
 .team-title {
     color: #2E2F42;
     text-align: center;
@@ -90,11 +92,12 @@ letter-spacing: 0.02em;
   }
 
   @media screen and (min-width:768px) {
-      .team-section {
-     
-      
-        background-color: #f4f4fd;
+      .team-section {      
+      background-color: #f4f4fd;
       padding: 120px 0;   }
+      .team-container {
+max-width: 584px;
+      }
     .team-menu {   
       display: flex;
       flex-wrap: wrap;
