@@ -45,7 +45,10 @@
 }}
 
 @media screen and (min-width: 1158px) {
-
+  .our-section-container {
+    padding-left: 15px;
+    padding-right: 15px; 
+  }
 
  .our-section { 
     padding: 120px 0;

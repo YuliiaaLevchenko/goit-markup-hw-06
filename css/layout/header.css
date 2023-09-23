@@ -1,6 +1,5 @@
 .header-container {
-  padding-top: 18px;
-  padding-bottom: 18px;
+  
 }
 .header-menu-list {
   display: none;
@@ -137,7 +136,7 @@
 
   .adress-first {
     display: flex;
-    margin-bottom: 12px;
+    
   }
 
   .adress-second {
