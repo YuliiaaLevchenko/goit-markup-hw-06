@@ -25,6 +25,11 @@
 }
 .section-text {
   align-self: stretch;
+  font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; 
+letter-spacing: 0.02em;
 }
 .overlay {display: none;}
 
@@ -42,7 +47,15 @@
 .section-title {
   margin-bottom: 8px;
   text-align: left;
-}}
+}
+.section-text {
+  font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; 
+letter-spacing: 0.02em;
+}
+}
 
 @media screen and (min-width: 1158px) {
   .our-section-container {

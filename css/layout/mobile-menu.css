@@ -9,7 +9,6 @@
   padding-left: 16px;
   padding-top: 72px;
 padding-bottom: 40px;
-
   transform: translateX(100%);
   transition: transform 250ms ease-out;
   display: flex;
@@ -62,20 +61,22 @@ padding-bottom: 40px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
  }
 .mobile-menu-contacts-color {
   color: #434455;
 }
 .mobile-menu-list-icon {
   display: flex;
-  justify-content: center;
-  margin-right: 24px;
-  margin-bottom: 40px;
+  
+  
   align-items: center;
   gap: 40px;
   margin-top: 48px;
 }
-.mobile-menu-list-item {
+.mobile-menu-list-link {
   width: 40px;
   height: 40px;
   display: flex;

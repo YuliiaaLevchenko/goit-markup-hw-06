@@ -9,8 +9,8 @@
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 220px;
 }
 .hero-button {
@@ -90,7 +90,7 @@
     letter-spacing: 0.02em;
     max-width: 496px;
     margin: auto;
-    margin-bottom: 36px;
+    
   }
    .hero-button {
     color: #fff;

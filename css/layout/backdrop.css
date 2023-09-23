@@ -169,6 +169,7 @@
    fill: transparent;
   margin-right: 8px;
   }
+  
   .review-form-checkbox:checked + .review-form-checkbox-label> .review-form-own-checkbox{
     background-color: #404bbf; 
     border: none;
