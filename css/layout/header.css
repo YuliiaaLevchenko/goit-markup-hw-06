@@ -107,6 +107,11 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
   }
   .header-menu-list-adress {
     display: block;
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 1.16; 
+letter-spacing: 0.04em;
   }
   .nav-menu-studio::after {
     display: block;
@@ -120,11 +125,7 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     bottom: -1px;
   }
   .adress-text {
-    font-family: Roboto;
-font-size: 12px;
-font-weight: 400;
-line-height: 1.16; 
-letter-spacing: 0.04em;
+    
     margin-left: auto;
     display: flex;
     gap: 40px;
@@ -143,7 +144,7 @@ letter-spacing: 0.04em;
 
   .adress-first {
     display: flex;
-    
+    margin-bottom: 12px;
   }
 
   .adress-second {

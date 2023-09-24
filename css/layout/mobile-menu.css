@@ -65,6 +65,9 @@ padding-bottom: 40px;
 flex-direction: column;
 align-items: flex-start;
  }
+ .mobile-menu-contacts-first-color {
+  color: #4D5AE5;
+ }
 .mobile-menu-contacts-color {
   color: #434455;
 }

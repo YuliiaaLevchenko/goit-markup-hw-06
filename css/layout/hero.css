@@ -78,7 +78,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/retina/tablet.jpg);
+      url(/images/retina/tablet.jpg);
   }
   .hero-text {
     color: #fff;
@@ -135,10 +135,8 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/retina/people.jpg);
+      url(/images/retina/people-off.jpg);
   }
-
- 
    
 /* .hero-section { 
     background-color: #2e2f42;
@@ -165,7 +163,7 @@
     letter-spacing: 1.12px;
     max-width: 496px;
     margin: auto;
-    margin-bottom: 48px;
+    
     
   }
   .hero-button {

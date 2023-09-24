@@ -96,7 +96,7 @@ gap: 32px;
 @media screen and (min-width: 768px) {
   .team-section {
     background-color: #f4f4fd;
-    padding: 120px 0;
+    padding: 96px 0;
   }
   .team-container {
     max-width: 584px;
@@ -181,6 +181,9 @@ gap: 32px;
    .team-section { 
     background-color: #f4f4fd;
     padding: 120px 0;
+  }
+  .team-container {
+    max-width: 1158px;
   }
   .team-menu {
     display: flex;
