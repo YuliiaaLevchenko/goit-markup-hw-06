@@ -108,7 +108,8 @@ letter-spacing: 0.03em;
   margin-top: 72px;
   margin-bottom: 16px;}
 .footer-form-label {
-  gap: 24px;}
+  gap: 24px;
+margin-bottom: 24px;}
 .footer-button {
   min-width: 165px;
   height: 40px;
@@ -253,7 +254,9 @@ gap: unset;
   .social-list-footer {
     margin-right: 80px; 
   }
-
+.social-text {
+  margin-top: unset;
+}
 .socialitemlink {
   display: flex;
   width: 40px;
@@ -328,8 +331,5 @@ gap: unset;
 .footer-button:focus {
   background-color: #404bbf;
 }
-
-
-
 
 }

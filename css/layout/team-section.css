@@ -93,6 +93,12 @@ gap: 32px;
   fill: #f4f4fd;
 }
 
+@media screen and (max-width: 767px) {
+  item:not(:last-child) {
+    margin-bottom:72px;
+    } 
+}
+
 @media screen and (min-width: 768px) {
   .team-section {
     background-color: #f4f4fd;
