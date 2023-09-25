@@ -96,7 +96,9 @@ letter-spacing: 0.03em;
   border-radius: 4px;
   color: #ffffff;
   padding-left: 16px;
-  padding-bottom: 8px;}
+  padding-bottom: 8px;
+margin-bottom: 24px;
+}
 .footer-form-input::placeholder {
   color: #ffffff;}
 .footer-form-text {
