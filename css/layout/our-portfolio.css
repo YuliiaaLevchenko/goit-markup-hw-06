@@ -46,7 +46,7 @@ margin-bottom: 72px;
 @media screen and (min-width:768px) {
   .our-portfolio { 
     padding-top: 96px;
-    padding-bottom: 72px;
+    padding-bottom: 96px;
   }
   .portfolio-container { 
     padding: 0 16px;
@@ -78,7 +78,6 @@ margin-bottom: 72px;
   padding-top: 120px;
   padding-bottom: 120px;
 }
-
 .portfolio-menu {
   display: flex;
   flex-wrap: wrap;
