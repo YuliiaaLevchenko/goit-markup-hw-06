@@ -113,7 +113,7 @@ gap: 32px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
+    gap: 64px 24px;
   }
   .team-item {
     width: calc((100% - 24px) / 2);

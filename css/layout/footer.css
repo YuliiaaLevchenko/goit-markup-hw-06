@@ -31,7 +31,6 @@ letter-spacing: 0.03em;
 }
 .social-list-footer {
   margin-top: 72px;
-  
 }
 .social-text {
   color: #fff;
@@ -41,7 +40,6 @@ letter-spacing: 0.03em;
   align-items: baseline;
   font-family: Roboto;
   font-weight: 500;
- 
 }
 .footer-text {
   color: #f4f4fd;
@@ -100,8 +98,8 @@ letter-spacing: 0.03em;
   border-radius: 4px;
   color: #ffffff;
   padding-left: 16px;
-  margin-top: 16px;
-margin-bottom: 16px;
+  
+
 }
 .footer-form-input::placeholder {
   color: #ffffff;}
@@ -136,13 +134,14 @@ margin-bottom: 16px;
   gap: 16px;
    margin-left: auto;
   margin-right: auto;
-  
+  margin-top: 16px;
 }
 .footer-button:hover,
 .footer-button:focus {
   background-color: #404bbf;
 }
 .footer-form-list {
+  margin-top: 16px;
 }
 
 @media screen and (min-width: 768px) {
@@ -160,11 +159,7 @@ margin-bottom: 16px;
     text-align: left;
     min-width: 264px;
   }
-  .footer-list {
-   
-    
-  }
-  .footer-text {
+    .footer-text {
     color: #f4f4fd;
     font-size: 16px;
         font-weight: 400;
@@ -177,13 +172,17 @@ margin-bottom: 16px;
   .footer-logo {
     color: #4d5ae5;
   }
+  .social-list-footer {
+    margin-top: unset;
+    
+  }
   .social-text {
     color: #fff;
     font-weight: 500;
     line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.02em;
-    margin-bottom: 16px;
+    
     align-items: baseline;
     text-align: left;
     margin-top: unset;
@@ -217,12 +216,16 @@ margin-bottom: 16px;
   .social-svg {
     fill: #f4f4fd;
   }
+  .footer-form {
+  margin-top: unset;
+}
    .footer-form-list {
     display: flex;
     gap: 24px;
+    
   }
   .footer-button {
-    margin-top: 16px;
+    margin-top: unset;
   }
   .footer-form-text { 
     
@@ -263,9 +266,6 @@ gap: unset;
   .social-list-footer {
     margin-right: 80px; 
   }
-.social-text {
-  margin-top: 16px;
-}
 .socialitemlink {
   display: flex;
   width: 40px;
@@ -288,7 +288,7 @@ gap: unset;
 }
 
 .footer-form-text {
- 
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5; 

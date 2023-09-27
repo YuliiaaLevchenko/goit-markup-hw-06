@@ -55,7 +55,7 @@ margin-bottom: 72px;
    display: flex;
     flex-wrap: wrap;
     align-content: center;
-    gap: 48px 24px;
+    gap: 72px 24px;
   }
   .portfolio-list {
     width: calc((100% - 24px) / 2);}
